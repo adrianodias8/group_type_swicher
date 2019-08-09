@@ -1,0 +1,7 @@
+group_type_switcher.switcher_form:
+  path: '/admin/config/group_type_switcher'
+  defaults:
+    _form: 'Drupal\group_type_switcher\Form\GroupTypeSwitcherForm'
+    _title: 'Group Type Switcher Form'
+  requirements:
+    _permission: 'administer site configuration'

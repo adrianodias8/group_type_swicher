@@ -1,0 +1,5 @@
+name: 'Group Type Switcher'
+type: module
+description: 'Provides functionality to switch groups group type. The group types must be identical.'
+core: 8.x
+package: 'Group'

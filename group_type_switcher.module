@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains group_type_switcher.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function group_type_switcher_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the group_type_switcher module.
+    case 'help.page.group_type_switcher':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides functionality to switch groups group type. The group types must be identical.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
