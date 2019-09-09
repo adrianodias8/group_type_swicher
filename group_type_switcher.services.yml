@@ -1,4 +1,4 @@
 services:
   group_type_switcher.switcher_service:
     class: Drupal\group_type_switcher\GroupTypeSwitcherService
-    arguments: ['@database', '@datetime.time', '@logger.factory', '@entity_type.manager']
+    arguments: ['@database', '@datetime.time', '@logger.factory', '@entity_type.manager', '@entity_field.manager']
